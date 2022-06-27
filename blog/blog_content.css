@@ -1,0 +1,150 @@
+.img_header{
+    background-image: url(blog_image/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 35vh;
+    margin-top: 0.5%;
+    color: white;
+
+}
+
+.button{
+    width: 10%;
+    height: 4.5vh;
+    margin-left: 1%;
+    margin-top: 1.5%;
+    border-radius: 15px;
+    border-color: transparent;
+    cursor: pointer;
+}
+.button a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+.button:hover{
+    background-color: blueviolet;
+}
+
+
+
+
+
+.main_blog_container{
+    width: 100%;
+    height: 80vh;
+    margin-top: 0.2%;
+}
+.head_content{
+    width: 30%;
+    height: 100%;
+    margin-left: 1%;
+}
+.key1{
+    width: 100%;
+    height: 31%;
+    background-image: url(blog_image/Blog-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    cursor: pointer;   
+    border-radius: 5px;
+}
+.key1:hover{
+    transform: rotatex(25deg);
+}
+
+
+
+.key2{
+    width: 100%;
+    height: 31%;
+    background-image: url(blog_image/Blog-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    cursor: pointer;   
+    margin-top: 3.5%;
+    border-radius: 5px;
+}
+.key2:hover{
+    transform: rotatex(25deg);
+}
+.key3{
+    width: 100%;
+    height: 31%;
+    background-image: url(blog_image/Blog-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    cursor: pointer;   
+    margin-top: 3.5%;
+    border-radius: 5px;
+}
+.key3:hover{
+    transform: rotatex(25deg);
+}
+
+
+
+
+
+
+
+
+
+.head_content_speech1{
+    width: 68%;
+    height: 80%;
+    margin-top: -80vh;
+    margin-left: 32%;
+    background-color: white;
+    border-radius: 15px;
+    position: absolute;
+    line-height: 1.5;
+    display: block;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.speech1_img{
+    width: 55%;
+    height: 35vh;
+    border-radius: 15px;
+}
+
+.head_content_speech2{
+    width: 68%;
+    height: 80%;
+    margin-top: -80vh;
+    margin-left: 32%;
+    background-color: white;
+    border-radius: 15px;
+    position: absolute;
+    line-height: 1.5;
+    display: none;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.speech2_img{
+    width: 55%;
+    height: 35vh;
+    border-radius: 15px;
+}
+
+
+.head_content_speech3{
+    width: 68%;
+    height: 80%;
+    margin-top: -80vh;
+    margin-left: 32%;
+    background-color: white;
+    border-radius: 15px;
+    position: absolute;
+    line-height: 1.5;
+    display:none;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.speech3_img{
+    width: 55%;
+    height: 35vh;
+    border-radius: 15px;
+}

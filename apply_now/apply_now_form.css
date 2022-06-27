@@ -1,0 +1,53 @@
+.form{
+    width: 50%;
+    height: 70vh;
+    background-color: rgb(17, 117, 134);
+    margin-top: 1.5%;
+    margin-left:25% ;
+    display: flex;
+    border-radius: 10px;
+}
+.form table{
+    width: 300%;
+    height: 20vh;
+    /* background-color: white; */
+    margin-left: 18%;
+    margin-top: 10vh;
+}
+.form table tr td{
+width: 10vh;
+height: 1vh;
+font-size: 22px;
+align-items: center;
+}
+.form table tr td input{
+    width: 30vh;
+    height: 3.5vh;
+}
+.form table tr td select{
+    width: 30vh;
+    height: 3.5vh;
+}
+.form table tr td textarea{
+    width: 30vh;
+}
+.submit
+{
+    width: 15vh;
+    height: 4vh;
+    margin-left: 1vh;
+    border-radius: 5px;
+    border-color: aqua;
+}
+.submit_button{
+    width: 25vh;
+    height: 5vh;
+    /* background-color: white; */
+    display: flex;
+    margin-left: 90%;
+    margin-top: 5%;
+}
+.submit:hover{
+    background-color: rgb(32, 116, 150);
+    border-color: aquamarine;
+}

@@ -1,0 +1,279 @@
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+    transition: 1s;
+}
+
+
+
+.main-head-bar{
+    width: 100%;
+    height: 5vh;
+    background-color: black;
+    display: flex;
+    margin: right;
+    transition: 1s;
+}
+
+.main-head-bar .menu1{
+    width: 60%;
+    height: 100%;
+    margin-left: 40%;
+}
+.main-head-bar .menu1 ul{
+    list-style: none;
+    display: flex;
+    margin-left:20%;
+    transition: 1.5s;
+    height: 100%;
+}
+.main-head-bar .menu1 ul li{
+    padding: 10px;
+    align-items: center;
+
+}
+.main-head-bar .menu1 ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    font-family: Calisto MT;
+    transition: 0.8s;
+}
+.main-head-bar .menu1 ul .li1{
+    margin-left: 7%;
+    border-radius: 20px;
+    transition: 0.8s;
+}
+.main-head-bar .menu1 ul #addmision-login{
+    background-color: rgb(190, 218, 67);
+}
+.main-head-bar .menu1 ul #addmision-login:hover > a{
+    color: rgb(211, 24, 211);
+}
+.main-head-bar .menu1 ul .li1:hover {
+    background-color: rgb(190, 218, 67);
+}
+.main-head-bar .menu1 ul .li1:hover > a{
+    color: rgb(211, 24, 211);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* For Sub-Main-Headbar */
+
+.sub-main-headbar{
+    display: flex;
+    background-color: rgb(0, 0, 0,0.6);
+    width: 100%;
+    height: 10vh;
+    margin-top: 0.2%;
+    border-radius: 5px;
+    transition: 1s;
+}
+.sub-main-headbar .logo{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: 1s;
+}
+.sub-main-headbar .logo h1{
+    font-family: Old English Text MT;
+    font-size: 45px;
+    cursor: pointer;
+    transition: 1s;
+}
+.sub-main-headbar .logo h1:hover{
+    color: rgb(241, 237, 237);
+}
+
+
+.sub-main-headbar .menu-contant{
+    display: flex;
+    width: 60%;
+    height: 100%;
+    /* background-color: aqua; */
+    margin-left: 10%;
+    justify-content: center;
+    align-items: center;
+}
+.sub-main-headbar .menu-contant ul{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    transition: 1.5s;
+
+}
+.sub-main-headbar .menu-contant ul .sub-menu-contant a{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    font-family: Chiller;
+    cursor: pointer;
+    transition: 1s;
+    
+}
+.sub-main-headbar .menu-contant ul .sub-menu-contant{
+    margin-left: 6%;
+    border-radius: 10px;
+    transition: 1s;
+}
+.sub-main-headbar .menu-contant ul .sub-menu-contant:hover{
+    background-color: rgb(208, 233, 117);
+
+}
+.sub-main-headbar .menu-contant ul .sub-menu-contant a:hover{
+    color: cadetblue;
+}
+
+
+/* Dropdown_Of Admission */
+.admission_under_head{ 
+    width: 60%;
+    height: 50vh;
+    position: absolute;
+    background-color: white;
+    margin-left: -25%;
+    margin-top: 0.7%;
+    display: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.li1:hover > .admission_under_head{
+    display: flex;
+    
+}
+
+.admission_under_head_div1{
+    width: 40%;
+    height: 50vh;
+    
+}
+
+.admission_under_head_div1_logo{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    border-bottom-color: royalblue;
+}
+.admission_under_head_div1_logo h1{
+    font-family: Old English Text MT;
+    font-size: 40px;
+}
+
+.admission_under_head_div1_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.admission_under_head_div1_content table tr{
+    display: flex;
+    margin-top: 10%;
+}
+.admission_under_head_div1_content table tr td i{
+    size: 60px;
+}
+.admission_under_head_div1_content table tr td{
+    display: flex;
+    margin-left: 10%;
+}
+
+.applynow_td_addmission{
+    margin-top: 10%;
+    background-color:aqua;
+    border-radius: 5px;
+    
+}
+
+.applynow_td_addmission a:hover{
+    background-color: rgb(22, 145, 145); 
+    border-radius: 5px;   
+}
+
+
+
+
+
+
+
+.admission_under_head_div2{
+    width: 60%;
+    height: 50vh;
+    display: block;
+    justify-content: center;
+    align-items: center;
+} 
+
+
+
+
+
+.our_universe_under_head{
+    position: absolute; 
+    margin-top: 0.7%;
+    width: 60%;
+    height: 60vh;
+    background-color: white;
+    margin-left: -30%;
+    cursor: pointer;
+    border-radius: 10px;
+    display: none;
+}
+.ouruniverse_dropdown:hover >.our_universe_under_head{
+    display: block;
+}
+
+.our_universe_under_head_headbar{
+    width: 100%;
+    height: 10vh;
+}
+.our_universe_under_head_headbar_logo{
+    display: flex;
+    width: 30%;
+    height: 100%;
+    margin-left: 5%;
+    justify-content: center;
+    align-items: center;
+}
+.our_universe_under_head_headbar_logo h1{
+    font-family: Old English Text MT;
+    font-size: 40px;
+}
+
+
+
+.our_universe_under_head_headbar_campus{
+    width: 80%;
+    height: 45vh;
+    /* background-color: red; */
+    margin-left: 10%;
+}
+.our_universe_under_head_headbar_campus_table
+{
+    width: 100%;
+    height: 100%;
+    background-color: linear-gradient(aqua yellow);
+}
+
+
+

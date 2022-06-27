@@ -1,0 +1,83 @@
+.about_campus{
+    width: 80%;
+    height: 120vh;
+    border-radius: 15px;
+    background-color:  rgb(27, 216, 137);
+    margin-top: 0.5%;
+    margin-left: 10%;
+}
+.a_image{
+    background-image: url(images/img2.jpg);
+    border-radius: 10px;
+    width: 100%;
+    height: 35vh;
+}
+.b_content{
+    margin-top: 2.5%;
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+.direction_p{
+    margin-left: 40%;
+    font-size: 20px;
+    color: white;
+}
+.button_im{
+width: 12.5%;
+height: 5vh;
+margin-left: 1%;
+border-radius: 15px;
+border-color: transparent;
+cursor: pointer;
+}
+.content_p{
+    margin-left: 30%;
+    margin-top: 2.5%;
+    font-size: 18px;
+    color: white;
+}
+#button1:hover{
+    background-color: blueviolet;
+    color: white;
+}
+#button2:hover{
+    background-color: blueviolet;
+    color: white;
+}
+
+
+
+
+.overview{
+    position: absolute;
+    margin-top: 2.5%;
+    width: 80%;
+    height: 75vh;
+    color: white;
+    overflow: hidden;
+    
+}
+.overview_img{
+    background-image: url(images/overview1.jpg);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius:10px ;
+    position: absolute;
+    background-color: wheat;
+    width: 35%;
+    height: 35vh;
+    margin-left: 65%;
+    margin-top: 2%;
+}
+
+
+.mission{
+    position: absolute;
+    margin-top: 2.5%;
+    width: 80%;
+    height: 75vh;
+    display: none;
+}

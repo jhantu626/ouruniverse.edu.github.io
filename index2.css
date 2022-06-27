@@ -1,0 +1,91 @@
+.our_universe_under_head{
+    position: absolute; 
+    margin-top: 0.7%;
+    width: 60%;
+    height: 50vh;
+    background-color: white;
+    margin-left: -30%;
+    cursor: pointer;
+    border-radius: 10px;
+    display: none;
+}
+.ouruniverse_dropdown{
+    z-index: 1000;
+}
+.ouruniverse_dropdown:hover >.our_universe_under_head{
+    display: block;
+}
+
+.our_universe_under_head_headbar{
+    width: 100%;
+    height: 10vh;
+}
+.our_universe_under_head_headbar_logo{
+    display: flex;
+    width: 30%;
+    height: 100%;
+    margin-left: 5%;
+    justify-content: center;
+    align-items: center;
+}
+.our_universe_under_head_headbar_logo h1{
+    font-family: Old English Text MT;
+    font-size: 40px;
+}
+
+
+
+.our_universe_under_head_headbar_campus{
+    width: 80%;
+    height: 35vh;
+    /* background-color: red; */
+    margin-left: 10%;
+}
+.our_universe_under_head_headbar_campus_table
+{
+    width: 100%;
+    height: 100%;
+    background-color: linear-gradient(aqua yellow);
+}
+.under_content_slider{
+    width: 90%;
+    height: 80%;
+    border-radius: 15px;
+    background-color: rgb(0,0,0,0.2);
+    /* display: flex; */
+
+}
+
+.under_content_slider{
+    position: absolute;
+    width: 40%;
+    height: 22vh;
+    background-color: rgb(0,0,0,0.6);
+    margin-top: -20%;
+    margin-left: 30%;
+}
+
+
+
+.under_content_slider_button{
+    width: 15vh;
+    height: 4vh;
+    border-radius: 15px;
+    border-color:transparent;
+    margin-left: 1%;
+    cursor: pointer;
+}
+.under_content_slider_button a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+#button1{
+    background-color: rgb(158, 71, 240);
+}
+#button1:hover{
+    background-color: white;
+}
+#button2:hover{
+    background-color: rgb(158, 71, 240);
+}
